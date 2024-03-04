@@ -2,4 +2,4 @@
 select name from Customer
 where referee_id != 2 or referee_id is null
 
->筆記補充: null
+/*SQL 中搜尋 null 要用 is null。null不屬一個實際的值*/
